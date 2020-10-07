@@ -94,6 +94,13 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+sitemap:
+  path: /sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+baidusitemap:
+  path: /baidusitemap.xml
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -133,11 +140,11 @@ theme_config:
     fb_app_id:
   site_verification:
     google:
-    baidu:
+    baidu: code-tfteix0CEd
   analytics:
-    google_site_id:
-    baidu_site_id:
-    cnzz_site_id:
+    google_site_id: UA-180016227-1
+    baidu_site_id: 13c552b44f132bda6d6e32f19afd7a12
+    cnzz_site_id: 1279329568
 
   pages:
   - name: 标签云
