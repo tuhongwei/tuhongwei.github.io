@@ -1,7 +1,8 @@
 ---
-uuid: c6b60080-2a78-11ea-9bda-a9d74328b739
-title: 关于
-date: 2019-01-01 08:00:00
+title: about
+date: 2021-01-18 17:30:59
+type: "about"
+layout: "about"
 ---
 
 本站构建状态：[![Build Status](https://www.travis-ci.org/tuhongwei/tuhongwei.github.io.svg?branch=source)](https://www.travis-ci.org/tuhongwei/tuhongwei.github.io) {.mdui-text-center}
