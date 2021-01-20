@@ -1,6 +1,5 @@
 ---
-uuid: f56d0862-c696-5136-2a00-03f36ea37b4e
-title: 居中的实现
+title: css实现居中的几种方式
 date: 2019-04-08 16:10:41
 categories:
 - 技术

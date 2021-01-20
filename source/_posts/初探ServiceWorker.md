@@ -1,5 +1,4 @@
 ---
-uuid: ae0ec00f-cde4-d6a7-2809-bb95735a7205
 title: 初探ServiceWorker
 date: 2019-04-08 16:10:41
 categories:
