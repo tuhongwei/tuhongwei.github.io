@@ -2,7 +2,3 @@
 	path = themes/default
 	url = https://github.com/niemingzhao/niemingzhao.github.io.git
 	branch = theme
-[submodule "themes/matery"]
-	path = themes/matery
-	url = https://github.com/blinkfox/hexo-theme-matery.git
-	branch = develop
