@@ -1,10 +1,11 @@
 ---
+uuid: e7c7551b-5104-1781-f05e-0274c2942e67
 title: 详解js中0.1+0.2!=0.3
 date: 2021-01-19 15:54:50
 categories:
 - 技术
 tags:
-- Javascript
+- JavaScript
 qrcode: true  # Disable article qrcode.
 share_menu: true  # Disable article share menu.
 donate: false
