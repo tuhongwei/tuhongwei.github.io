@@ -4,7 +4,7 @@ date: 2021-01-19 15:54:50
 categories:
 - 技术
 tags:
-- Javascript
+- JavaScript
 qrcode: true  # Disable article qrcode.
 share_menu: true  # Disable article share menu.
 donate: false
