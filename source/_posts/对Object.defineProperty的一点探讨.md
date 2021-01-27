@@ -13,7 +13,7 @@ tags:
 
 
 
-1. 当writable为true时，修改value属性不会导致错误
+1. ##### 当writable为true时，修改value属性不会导致错误
 
 ```javascript
 let person = {};
@@ -28,7 +28,7 @@ Object.defineProperty(person, "name", {
 });
 ```
 
-2. 当writable为true时将它修改为false不会导致错误（enumerable 属性不行）
+2. ##### 当writable为true时将它修改为false不会导致错误（enumerable 属性不行）
 
 ```JavaScript
 let person = {};
@@ -42,7 +42,21 @@ Object.defineProperty(person, "name", {
 });
 ```
 
+3. ##### 当writable为false时将它修改为true也会导致错误
 
+   ```javascript
+   let person = {};
+   Object.defineProperty(person, "name", {
+    configurable: false,
+    value: "Nicholas"
+   });
+   
+   Object.defineProperty(person, "name", {
+    writable: true
+   });
+   ```
+
+   
 
 ### 关于writable
 
@@ -75,6 +89,30 @@ person.friend.name = "Nicholas";
 
 
 ### get 和 Object.defineProperty
+
+当时用get关键字时，它和通过Object.defineProperty定义的get属性有一些细微的差别。
+
+在class中，当使用get关键字时，属性将被定义在实例的原型上，而使用Object.defineProperty时，属性将被定义在实例上。
+
+```javascript
+class Person {
+ get name () {
+  return 'Twittytop';
+ }
+}
+var p = new Person();
+console.log(p.hasOwnProperty('name')); // false
+console.log(Object.getPrototypeOf(p).hasOwnProperty('name')); // true
+
+Object.defineProperty(p, 'job', {
+ value: 'engineer'
+});
+console.log(p.hasOwnProperty('job')); // true
+```
+
+
+
+
 
 
 
