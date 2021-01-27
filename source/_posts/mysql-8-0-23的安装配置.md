@@ -42,6 +42,14 @@ typora-root-url: ..
 
 3. 将解压路径配置到环境变量中
 
+   右键此电脑属性  -> 找到高级系统设置配置 -> 环境变量 -> 双击Path，填写你自己的解压路径
+
+   ![screenshot10](/images/blog/MySQL/screenshot10.jpg)
+
+   ![](/images/blog/MySQL/screenshot11.jpg)
+
+   ![screenshot12](/images/blog/MySQL/screenshot12.jpg)
+
 4. 在解压目录里面新建一个my.ini的配置文件，内容如下：
 
    ```ini
@@ -58,13 +66,25 @@ typora-root-url: ..
 
 ### 启动mysql服务器
 
-1. 通过管理员权限进入cmd，接着键入 `mysqld --initialize --console` ，然后就会看到如下产生的随机密码，这个密码就是进入MySQL时root用户的初始密码，记下它，如果你不小心关掉了cmd或者没记住，删掉刚才创建的data目录，再执行一遍初始化就会重新生成。
+这里有2种，一种是安全的，一种是不安全的，实际中你任选一种就行。
 
-   ![screenshot6](/images/blog/MySQL/screenshot6.jpg)
+##### 安全的
 
-2. 键入`mysqld --install`安装mysql服务，接着键入`net start mysql`启动服务，就会看到服务成功启动的提示
+通过管理员权限进入cmd，接着键入 `mysqld --initialize --console` ，然后就会看到如下产生的随机密码，这个密码就是进入MySQL时root用户的初始密码，记下它，如果你不小心关掉了cmd或者没记住，删掉刚才创建的data目录，再执行一遍初始化就会重新生成。
 
-   ![screenshot7](/images/blog/MySQL/screenshot7.jpg)
+![screenshot6](/images/blog/MySQL/screenshot6.jpg)
+
+##### 不安全的
+
+通过管理员权限进入cmd，接着键入 `mysqld --initialize-insecure`，这种后面不需要输入密码就可以直接进入数据库
+
+
+
+然后键入`mysqld --install`安装mysql服务，接着键入`net start mysql`启动服务，就会看到服务成功启动的提示
+
+![screenshot7](/images/blog/MySQL/screenshot7.jpg)
+
+
 
 ### 进入MySQL数据库
 
@@ -76,7 +96,7 @@ typora-root-url: ..
 
 ### 修改密码
 
- 键入 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '新密码';` 出现如下界面，表示更改成功。	
+ 键入 `ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';` 出现如下界面，表示更改成功。	
 
 ![screenshot9](/images/blog/MySQL/screenshot9.jpg)
 
