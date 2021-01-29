@@ -41,15 +41,19 @@ tags:
 
 值为"function"，因为Function.prototype是原生方法。
 
-#### 	9. function fun () {}; fun instanceof Function
+#### 9. Array.isArray(Array.prototype) 
 
-值为true，那**fun instanceof Object**呢？值也为true。关于Object和Function的前世今生，后面再写一篇文章来说明。
+值为true，数组的原型也是数组
 
-#### 	10. Math.max('a', 'b')
+#### 	10. function fun () {}; fun instanceof Function
+
+值为true，那**fun instanceof Object**呢？值也为true。关于Object和Function的前世今生，后面会再写一篇文章来说明。
+
+#### 	11. Math.max('a', 'b')
 
 值为NaN
 
-#### 	11. [] == ![]
+#### 	12. [] == ![]
 
 值为true，这个题目有一次在笔试的时候被考到过。分析一下，这里涉及到隐式类型转换，首先![]=false,变为[] == false，如果有一操作数为布尔值时，将其转化为number，则变为[] == 0，然后将左边也转换为number，左边是对象，先调用valueOf方法，转换的值为[]，不是原始值，所以继续调用toString方法，得到的值为空字符串""，转换为number为0，最终得到0 == 0。
 
