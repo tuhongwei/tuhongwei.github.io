@@ -2,10 +2,16 @@
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
-                <% if (config.subtitle && config.subtitle.length > 0) { %>
-                <%= config.subtitle %>
+                <% if (is_archive()) { %>
+                    <%= __('archives') %>
+                <% } else if (is_category()) { %>
+                    <%= __('categories') %>
+                <% } else if (is_tag()) { %>
+                    <%= __('tag') %>
+                <% } else if (page.title && page.title.length > 0) { %>
+                    <%= __(page.title) %>
                 <% } else { %>
-                    subtitle
+                    <%= config.subtitle %>
                 <% } %>
             </div>
 

@@ -1,10 +1,12 @@
 ---
 title: JavaScript深拷贝
-date: 2019-04-08 16:10:41
+date: 2021-01-11 11:10:20
+author: Twittytop
 categories:
-- 技术
+- 前端
 tags:
 - JavaScript
+keywords: 深拷贝 JavaScript
 ---
 咋一看标题，可能你会觉得非常简单，因为这是极其常见的需求，但只有当你真正去实践过，才会发现这并没有想象中那么简单。长久以来，前端开发者们为此殚精竭虑，琢磨出了各种解决办法，本篇文章将利用现代css的威力，去解决这一难题。
 先从先前所使用的方法及其弊病讲起。
@@ -30,6 +32,7 @@ tags:
   }
 {% endcodeblock %}
 利用了表格的显示模式，弊病是需要用到冗余的HTML元素
+
 ### 2.行内块法
 {% codeblock lang:html %}
 <div class="container">

@@ -1,11 +1,13 @@
 ---
 title: mysql-8.0.23的安装
 date: 2021-01-27 14:14:16
+author: Twittytop
 categories:
 - 教程
 tags:
 - MySQL
-typora-root-url: ..
+keywords: 安装配置 教程 MySQL
+typora-root-url: ..\..
 ---
 
 记录一下MySQL 8.0.23的安装配置过程，这里以windows为例

@@ -1,10 +1,12 @@
 ---
 title: 记一次用postMessage实现跨域通信的踩坑之旅
-date: 2021-01-15 15:43:04
+date: 2020-10-11 15:43:04
+author: Twittytop
 categories:
-- 技术
+- 前端
 tags:
 - JavaScript
+keywords: postMessage JavaScript
 ---
 
 ### 背景

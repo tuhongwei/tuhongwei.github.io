@@ -1,10 +1,12 @@
 ---
 title: 详解js中0.1+0.2!=0.3
 date: 2021-01-19 15:54:50
+author: Twittytop
 categories:
-- 技术
+- 前端
 tags:
 - JavaScript
+keywords: IEEE754 JavaScript
 ---
 
 <font size=3>笔者曾经面试被问到过0.1+0.2的结果是啥，初看这题你可能心中会想，难道不是0.3吗？但你肯定会觉得没那么简单，那今天我们就来探一探究竟。</font>

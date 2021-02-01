@@ -4,6 +4,7 @@
 .with-love {
   display: inline-block;
   margin: 0 5px;
+  color:#ff71a8;
   animation: heartAnimate 1.33s ease-in-out infinite;
 }
 

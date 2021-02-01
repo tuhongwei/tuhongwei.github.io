@@ -1,10 +1,12 @@
 ---
 title: 盘点js中那些诡异的结果
 date: 2021-01-28 23:57:57
+author: Twittytop
 categories:
-- 技术
+- 前端
 tags:
 - JavaScript
+keywords: JavaScript
 ---
 
 	本文中涉及到的知识，很多都是比较冷门，在实际编码中你可能用不到，但保不准有些面试官可能会问到，或者你可以拿来zb。

@@ -45,14 +45,14 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -95,12 +95,12 @@ include:
 exclude:
 ignore:
 sitemap:
-  path: /sitemap.xml
+  path: sitemap.xml
   rel: false
   tags: true
   categories: true
 baidusitemap:
-  path: /baidusitemap.xml
+  path: baidusitemap.xml
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -157,3 +157,9 @@ restful:
   use_tag_slug: false      # Use slug for filename of tag data
   post: true               # 文章数据
   pages: false             # 额外的 Hexo 页面数据, 如 About
+
+# Docs: https://github.com/HarborZeng/hexo-lazyload-image
+lazyload:
+  enable: true 
+  onlypost: true
+  loadingImg: /medias/loading.svg # eg ./images/loading.gif
