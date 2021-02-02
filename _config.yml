@@ -158,8 +158,4 @@ restful:
   post: true               # 文章数据
   pages: false             # 额外的 Hexo 页面数据, 如 About
 
-# Docs: https://github.com/HarborZeng/hexo-lazyload-image
-lazyload:
-  enable: true 
-  onlypost: true
-  loadingImg: /medias/loading.svg # eg ./images/loading.gif
+
