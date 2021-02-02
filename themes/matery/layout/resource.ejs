@@ -11,6 +11,9 @@
         font-size: 1.75rem;
         font-weight: 400;
     }
+    .resource-container .tab-container a {
+        text-decoration: underline;
+    }
 </style>
 
 <main class="content">
@@ -21,61 +24,41 @@
                     <i class="fas fas fa-folder"></i>&nbsp;&nbsp;<%= __('resource') %>
                 </div>
                 <%- page.content %>
-                <article id="resource-link">
-                    <% if (site.data && site.data.resource) {
-                        var resources = site.data.resource;
-                        %>
-                        <ul class="tabs"></ul>
+                <% if (site.data && site.data.resource) {
+                    var resources = site.data.resource;
+                    %>
+                    <ul class="tabs z-depth-1">
                         <% for (var k in resources) {
                             var resource = resources[k];
                         %>
                         <li class="tab"><a href="#<%= k %>"><%= k %></a></li>
-                        <% } %>
-                            
-                    
-                        
-                        <li class="tab"><a href="#test2">2021</a></li>
-                        <li class="tab"><a href="#test3">素材</a></li>
-                        <li class="tab"><a href="#test4">好玩</a></li>
-                    </ul>
-                    <div id="test1" class="col s12">
-                        
-                    </div>
-                    <div id="test2" class="col s12">测试 2</div>
-                    <div id="test3" class="col s12">测试 3</div>
-                    <div id="test4" class="col s12">测试 4</div>
                     <% } %>
-                </article>
+                    </ul>
+                    <% for (var k in resources) {
+                        var resource = resources[k];
+                    %>
+                    <div id="<%= k %>" class="tab-container col s12">
+                        <% for (var k1 in resource) {
+                            var resource1 = resource[k1];
+                        %>
+                            <h3><%= k %>-<%= k1 %></h3>
+                            <ul class="browser-default">
+                            <% for (var item of resource1) {
+                            %>
+                            <li>
+                                <a href="<%= item.link %>"><%= item.link %></a>
+                                <span><%= item.category %></span>
+                                <span><%= item.tag %></span>
+                            </li>
+                            <% } %>
+                            </ul>
+                        <% } %>
+                    </div>
+                    <% } %>
+                <% } %>
             </div>
         </div>
     </div>
-技术：https://github.com/axuebin/articles/issues/39 （前端面试复习）
-
-素材： https://unsplash.com/s/photos/landscape 
-https://www.pexels.com/zh-cn
-https://pixabay.com
-https://picjumbo.com 
-https://www.pakutaso.com
-https://www.photock.jp
-https://www.lifeofpix.com
-
-
-https://undraw.co/illustrations (自定义颜色图表库)
-https://wallhaven.cc （壁纸）
-
-工具： http://zhongguose.com （中国颜色）
-
-有意思：http://www.nows.fun（毒鸡汤）
-https://www.v2fy.com/p/000readme-chinesebqb （中国人的表情包）
-https://wangpinpin.com （舔狗日记生成）
-https://github.com/menzi11/BullshitGenerator （狗屁不通文章生成器）
-https://www.autopiano.cn （Web端钢琴）
 </main>
 
-<script>
-    $(function () {
-        $('#friends-link').masonry({
-            itemSelector: '.friend-div'
-        });
-    });
-</script>
+
