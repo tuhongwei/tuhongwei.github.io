@@ -4,7 +4,9 @@
 
 # Site
 title: Twittytop
-subtitle: Stay Hungry. Stay Foolish
+subtitle: 
+  - Stay Hungry. Stay Foolish
+  - To the time to life,rather than to life in time.
 description: 技术分享，个人博客
 keywords: Twittytop，博客，Hexo，前端
 author: Twittytop
