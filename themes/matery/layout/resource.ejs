@@ -14,6 +14,9 @@
     .resource-container .tab-container a {
         text-decoration: underline;
     }
+    .resource-content {
+        margin-bottom: 30px;
+    }
 </style>
 
 <main class="content">
@@ -23,7 +26,7 @@
                 <div class="tag-title center-align">
                     <i class="fas fas fa-folder"></i>&nbsp;&nbsp;<%= __('resource') %>
                 </div>
-                <%- page.content %>
+                <div class="resource-content"><%- page.content %></div>
                 <% if (site.data && site.data.resource) {
                     var resources = site.data.resource;
                     %>
@@ -43,12 +46,19 @@
                         %>
                             <h3><%= k %>-<%= k1 %></h3>
                             <ul class="browser-default">
-                            <% for (var item of resource1) {
-                            %>
+                            <% for (var item of resource1) { %>
                             <li>
                                 <a href="<%= item.link %>"><%= item.link %></a>
-                                <span><%= item.category %></span>
-                                <span><%= item.tag %></span>
+                                <span><%= item.desc %></span>
+                                <span>
+                                    <% if (item.sign === 'important') { %>
+                                        <%= ':fire:' %>
+                                    <% } else if (item.sign === 'read') { %>
+                                        <%= ':heavy_check_mark:' %>
+                                    <% } else { %>
+                                        <%= ':point_right:' %>
+                                   <% } %>
+                                </span>
                             </li>
                             <% } %>
                             </ul>
@@ -60,5 +70,11 @@
         </div>
     </div>
 </main>
+
+<script>
+    $(function () {
+        $('.resource-content ul').addClass('browser-default');
+    });
+</script>
 
 

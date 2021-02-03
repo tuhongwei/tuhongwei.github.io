@@ -6,72 +6,8 @@
     "01": [
       {
         "link": "https://github.com/axuebin/articles/issues/39",
-        "category": "前端",
-        "tag": "面试复习"
-      },
-      {
-        "link": "https://unsplash.com/s/photos/landscape",
-        "category": "素材"
-      },
-      {
-        "link": "https://www.pexels.com/zh-cn",
-        "category": "素材"
-      },
-      {
-        "link": "https://pixabay.com",
-        "category": "素材"
-      },
-      {
-        "link": "https://picjumbo.com",
-        "category": "素材"
-      },
-      {
-        "link": "https://www.pakutaso.com",
-        "category": "素材"
-      },
-      {
-        "link": "https://www.photock.jp",
-        "category": "素材"
-      },
-      {
-        "link": "https://undraw.co/illustrations",
-        "category": "素材",
-        "tag": "自定义颜色图表库"
-      },
-      {
-        "link": "https://wallhaven.cc",
-        "category": "素材",
-        "tag": "壁纸"
-      },
-      {
-        "link": "http://zhongguose.com",
-        "category": "工具",
-        "tag": "中国颜色"
-      },
-      {
-        "link": "http://www.nows.fun",
-        "category": "好玩",
-        "tag": "毒鸡汤"
-      },
-      {
-        "link": "https://www.v2fy.com/p/000readme-chinesebqb",
-        "category": "好玩",
-        "tag": "中国人的表情包"
-      },
-      {
-        "link": "https://wangpinpin.com",
-        "category": "好玩",
-        "tag": "舔狗日记生成"
-      },
-      {
-        "link": "https://github.com/menzi11/BullshitGenerator",
-        "category": "好玩",
-        "tag": "狗屁不通文章生成器"
-      },
-      {
-        "link": "https://www.autopiano.cn",
-        "category": "好玩",
-        "tag": "Web端钢琴"
+        "desc": "前端面试复习",
+        "sign": "important"
       }
     ]
   }
