@@ -17,6 +17,10 @@
     .resource-content {
         margin-bottom: 30px;
     }
+
+    .resource-container .tabs {
+        margin-top: 20px;
+    }
 </style>
 
 <main class="content">
@@ -27,14 +31,24 @@
                     <i class="fas fas fa-folder"></i>&nbsp;&nbsp;<%= __('resource') %>
                 </div>
                 <div class="resource-content"><%- page.content %></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                    <i class="fas fas fa-clock"></i>&nbsp;&nbsp;时间线 %>
+                </div>
                 <% if (site.data && site.data.resource) {
                     var resources = site.data.resource;
                     %>
                     <ul class="tabs z-depth-1">
                         <% for (var k in resources) {
                             var resource = resources[k];
+                            var y = new Date().getFullYear() === +k;
+                            var cls = y ? 'class=active' : '';
                         %>
-                        <li class="tab"><a href="#<%= k %>"><%= k %></a></li>
+                        <li class="tab"><a <%= cls %> href="#<%= k %>"><%= k %></a></li>
                     <% } %>
                     </ul>
                     <% for (var k in resources) {
@@ -50,15 +64,13 @@
                             <li>
                                 <a href="<%= item.link %>"><%= item.link %></a>
                                 <span><%= item.desc %></span>
-                                <span>
-                                    <% if (item.sign === 'important') { %>
-                                        <%= ':fire:' %>
-                                    <% } else if (item.sign === 'read') { %>
-                                        <%= ':heavy_check_mark:' %>
-                                    <% } else { %>
-                                        <%= ':point_right:' %>
-                                   <% } %>
-                                </span>
+                                <% if (item.sign === 'important') { %>
+                                    <%- github_emoji('fire') %>
+                                <% } else if (item.sign === 'read') { %>
+                                    <%- github_emoji('heavy_check_mark') %>
+                                <% } else { %>
+                                    <%- github_emoji('point_right') %>
+                                <% } %>
                             </li>
                             <% } %>
                             </ul>
@@ -74,6 +86,7 @@
 <script>
     $(function () {
         $('.resource-content ul').addClass('browser-default');
+        $('.resource-container .tabs').tabs();
     });
 </script>
 

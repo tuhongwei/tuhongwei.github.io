@@ -8,7 +8,7 @@
                     if (typeof subtitle === 'string') {
                         bgCoverSubtitle = subtitle;
                     } else {
-                        bgCoverSubtitle = subtitle[1];
+                        bgCoverSubtitle = subtitle[~~(Math.random() * subtitle.length)];
                     }
                 %>
                     <%= bgCoverSubtitle %>
@@ -59,7 +59,7 @@
 <% if (theme.banner.enable) { %>
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('/medias/banner/') %>" + new Date().getDay() + '.jpg';
+    var bannerUrl = "<%- theme.jsDelivr.url %><%- url_for('/medias/banner/') %>" + ~~(Math.random() * 16) + '.webp';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 <% } else { %>

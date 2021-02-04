@@ -10,9 +10,9 @@ layout: "resource"
 
 ### 素材（写文章、公众号用）
 
-- https://unsplash.com/s/photos/landscape
+- https://pixabay.com 可保存为webp格式
+- https://unsplash.com/s/photos/landscape 高清 尺寸很大，几M
 - https://www.pexels.com/zh-cn
-- https://pixabay.com
 - https://picjumbo.com
 - https://www.pakutaso.com
 - https://www.photock.jp
@@ -23,9 +23,7 @@ layout: "resource"
 
 ### 工具
 
-- http://zhongguose.com
-
-
+- http://zhongguose.com 中国颜色
 
 ### 好玩
 
