@@ -88,6 +88,9 @@
         $('.resource-content ul').addClass('browser-default');
         $('.resource-container .tabs').tabs();
     });
+    $('.tab a').on('click', function (e) {
+        e.preventDefault();
+    });
 </script>
 
 
