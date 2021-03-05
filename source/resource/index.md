@@ -11,7 +11,7 @@ layout: "resource"
 ### 素材（写文章、公众号用）
 
 - https://pixabay.com 可保存为webp格式
-- https://unsplash.com/s/photos/landscape 高清 尺寸很大，几M
+- https://unsplash.com 高清 尺寸很大，几M
 - https://www.pexels.com/zh-cn
 - https://picjumbo.com
 - https://www.pakutaso.com

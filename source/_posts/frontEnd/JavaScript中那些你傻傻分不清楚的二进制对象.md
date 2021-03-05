@@ -1,5 +1,5 @@
 ---
-title: JavaScript中那些你傻傻分不清楚的二级制对象
+title: JavaScript中那些你傻傻分不清楚的二进制对象
 date: 2021-02-24 15:43:49
 author: Twittytop
 categories:
