@@ -46,19 +46,19 @@ Object.defineProperty(person, "name", {
 
 3. ##### 当writable为false时将它修改为true也会导致错误
 
-   ```javascript
-   let person = {};
-   Object.defineProperty(person, "name", {
-    configurable: false,
-    value: "Nicholas"
-   });
-   
-   Object.defineProperty(person, "name", {
-    writable: true
-   });
-   ```
+```javascript
+let person = {};
+Object.defineProperty(person, "name", {
+ configurable: false,
+ value: "Nicholas"
+});
 
-   
+Object.defineProperty(person, "name", {
+ writable: true
+});
+```
+
+
 
 ### 关于writable
 
