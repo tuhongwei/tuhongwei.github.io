@@ -44,7 +44,7 @@ keywords: IEEE754 JavaScript
 
 
 
-<font size=3>然后我们用之前说过的<font size=3 color="#4183C4 ">[IEEE 754 双精度64位浮点数](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)</font>（需翻墙）来表示：</font>
+<font size=3>然后我们用之前说过的<font size=3 color="#4183C4 ">[IEEE 754 双精度64位浮点数](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)</font>（需VPN）来表示：</font>
 
 ```javascript
 // 0.1
@@ -108,7 +108,7 @@ m = 1.1001100110011001100110011001100110011001100110011010 (52位)
 
 <font size=3>现在转化为十进制，二进制小数转化为十进制的方法是小数点后<font color="#f00">第一位\*2 ^  -1</font>，<font color="#f00">第二位\*2 ^ -2</font>，以此类推，最终我们用等比数列的求和公式得到十进制数为<font size=3 color="#f00">0.30000000000000004</font>，所以0.1 + 0.2的最终结果是</font>
 
-<font size=3 color="#f00">0.30000000000000004！</font>
+<font size=3 color="#f00">0.30000000000000004</font>
 
 
 

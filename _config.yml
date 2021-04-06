@@ -117,6 +117,9 @@ deploy:
   type: git
   repo: git@github.com:tuhongwei/tuhongwei.github.io.git
   branch: master
+  message: "chore(*): auto updated by Travis CI at {{ now('YYYY-MM-DD HH:mm:ss') }}."
+  name: Twittytop
+  email: 1690542111@qq.com
 
 search:
   path: search.xml
