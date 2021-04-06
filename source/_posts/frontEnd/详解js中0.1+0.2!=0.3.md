@@ -44,7 +44,7 @@ keywords: IEEE754 JavaScript
 
 
 
-<font size=3>然后我们用之前说过的<font size=3 color="#4183C4 ">[IEEE 754 双精度64位浮点数](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)</font>（需翻墙）来表示：</font>
+<font size=3>然后我们用之前说过的<font size=3 color="#4183C4 ">[IEEE 754 双精度64位浮点数](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)</font>（需VPN）来表示：</font>
 
 ```javascript
 // 0.1
