@@ -1,5 +1,5 @@
 ---
-title: 对Object.defineProperty的一点探讨
+title: 对 Object.defineProperty 的一点探讨
 date: 2021-01-15 15:43:04
 author: Twittytop
 categories:
@@ -15,50 +15,54 @@ keywords: Object.defineProperty JavaScript
 
 
 
-1. ##### 当writable为true时，修改value属性不会导致错误
+1. #### 当writable为true时，修改value属性不会导致错误
 
-```javascript
-let person = {};
-Object.defineProperty(person, "name", {
- configurable: false,
- writable: true,
- value: "Nicholas"
-});
+   ```javascript
+   let person = {};
+   Object.defineProperty(person, "name", {
+    configurable: false,
+    writable: true,
+    value: "Nicholas"
+   });
+   
+   Object.defineProperty(person, "name", {
+    value: "Twittytop"
+   });
+   ```
 
-Object.defineProperty(person, "name", {
- value: "Twittytop"
-});
-```
+   
 
-2. ##### 当writable为true时将它修改为false不会导致错误（enumerable 属性不行）
+2. #### 当writable为true时将它修改为false不会导致错误（enumerable 属性不行）
 
-```JavaScript
-let person = {};
-Object.defineProperty(person, "name", {
- configurable: false,
- writable: true
-});
+   ```javascript
+   let person = {};
+   Object.defineProperty(person, "name", {
+    configurable: false,
+    writable: true
+   });
+   
+   Object.defineProperty(person, "name", {
+    writable: false
+   });
+   ```
 
-Object.defineProperty(person, "name", {
- writable: false
-});
-```
+   
 
-3. ##### 当writable为false时将它修改为true也会导致错误
+3. #### 当writable为false时将它修改为true也会导致错误
 
-```javascript
-let person = {};
-Object.defineProperty(person, "name", {
- configurable: false,
- value: "Nicholas"
-});
+   ```javascript
+   let person = {};
+   Object.defineProperty(person, "name", {
+    configurable: false,
+    value: "Nicholas"
+   });
+   
+   Object.defineProperty(person, "name", {
+    writable: true
+   });
+   ```
 
-Object.defineProperty(person, "name", {
- writable: true
-});
-```
-
-
+   
 
 ### 关于writable
 
