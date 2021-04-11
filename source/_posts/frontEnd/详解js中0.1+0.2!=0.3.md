@@ -9,13 +9,13 @@ tags:
 keywords: IEEE754 JavaScript
 ---
 
-<font size=3>笔者曾经面试被问到过0.1+0.2的结果是啥，初看这题你可能心中会想，难道不是0.3吗？但你肯定会觉得没那么简单，那今天我们就来探一探究竟。</font>
+<font size=3>笔者曾经面试被问到过 0.1+0.2 的结果是啥，初看这题你可能心中会想，难道不是0.3吗？但你肯定会觉得没那么简单，那今天我们就来探一探究竟。</font>
 
 
 
 <font size=4  color="#00c100">1. JavaScript中数字的存储机制</font>
 
-<font size=3>在JavaScript中数字是以[<font size=3  color="#4183C4">IEEE 754 双精度64位浮点数</font>](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)（需VPN）来存储的，它的表示格式为：
+<font size=3>在JavaScript中数字是以 [<font size=3  color="#4183C4">IEEE 754 双精度64位浮点数</font>](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)（需VPN）来存储的，它的表示格式为：
 
 <center> <font size=3 color="#f00"> (s) * (m) * (2 ^ e)</font></center>
 <font size=3>其中s表示符号位，m表示尾数，占52位，e表示指数，占11位，根据ECMAScript 5 规范，e 的范围是 **[-1074, 971]**，这样可以得出js能表示的最大值为1 * (2^53 - 1) * (2^971) = 1.7976931348623157e+308，而这个值恰好是**Number.MAX_VALUE**的值；同理可以推出js能表示的大于0的最小值是1 * 1 * (2 ^ -1074) = 5e-324，这个值恰好是**Number.MIN_VALUE**的值。</font>
@@ -44,7 +44,7 @@ keywords: IEEE754 JavaScript
 
 
 
-<font size=3>然后我们用之前说过的<font size=3 color="#4183C4 ">[IEEE 754 双精度64位浮点数](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)</font>（需VPN）来表示：</font>
+<font size=3>然后我们用之前说过的 <font size=3 color="#4183C4 ">[IEEE 754 双精度64位浮点数](https://en.wikipedia.org/wiki/Floating_point#Internal_representation)</font>（需VPN）来表示：</font>
 
 ```javascript
 // 0.1
