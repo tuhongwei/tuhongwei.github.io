@@ -16,7 +16,7 @@ tags:
 
 
 
-#### 1. 连续调用call，到底是为谁打call
+#### 1. 连续调用 call，到底是为谁打 call
 
 ```javascript
 function f1 () {
@@ -32,7 +32,7 @@ console.log(f1.call.call.call(f2)) // f2
 
 
 
-#### 2. try中return，finally中还会执行吗
+#### 2. try 中 return，finally 中还会执行吗
 
 ```javascript
 function foo () {
@@ -56,6 +56,8 @@ console.log(foo());
 ```
 
 在我们通常的理解中，return之后相当于这个函数就退出了，后面的代码都不会执行。但是这里我们可以看到finally最后确实是执行了, 而且里面的return覆盖了try中的return。这背后的执行机制与 Completion Record有关，关于Completion Record，这里就不展开讲了，有兴趣的可以去了解一下。
+
+
 
 #### 3.  连续new
 
