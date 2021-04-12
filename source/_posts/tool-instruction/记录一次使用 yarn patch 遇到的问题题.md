@@ -10,7 +10,7 @@ keywords: Yarn v2 patch
 typora-root-url: ..\..
 ---
 
-最近在修改 node_modules 里的文件时（具体可以参考我的另一篇文章—如何修改 node_modules 里的文件），发现了 yarn patch 这个特性，这是 v2 版本的一个新特性，于是想动手实验一番，结果报了如下错误：
+最近在修改 node_modules 里的文件时（具体可以参考我的另一篇文章—修改 node_modules 里文件的正确姿势），发现了 yarn patch 这个特性，这是 v2 版本的一个新特性，于是想动手实验一番，结果报了如下错误：
 
 ![screenshot12](/images/blog/modify-node_modules/screenshot12.jpg)
 
