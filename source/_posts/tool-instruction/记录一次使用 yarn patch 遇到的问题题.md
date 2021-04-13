@@ -26,7 +26,7 @@ typora-root-url: ..\..
 
 ![screenshot1](/images/blog/yarn-patch/screenshot1.jpg)
 
-猜想会不会是因为 vue-loader-v16@16.2.0 这个包的镜像问题导致最后安装没有成功，然后搜了一下这个包，发现没有这个版本的包依赖，又继续搜了一下是哪个包依赖了 vue-loader-v16，发现了这个
+猜想会不会是因为 vue-loader-v16@16.2.0 这个包的镜像问题导致最后安装没有成功，然后去 npm 搜了一下这个包，发现没有这个版本的包依赖，又去工程项目里面搜了一下是哪个包依赖了 vue-loader-v16，发现了这个
 
 ![screenshot2](/images/blog/yarn-patch/screenshot2.jpg)
 
