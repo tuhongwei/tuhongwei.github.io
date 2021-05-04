@@ -10,3 +10,9 @@ keywords: File Blob ArrayBuffer TypedArray FileReader FileReaderSync ReadableStr
 ---
 
 File继承至Blob
+
+ArrayBuffer TypedArray FileReader FileReaderSync ReadableStream
+
+
+
+使用场景
