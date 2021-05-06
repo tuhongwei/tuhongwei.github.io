@@ -1,5 +1,5 @@
 ---
-title: 面试再也不怕被问到继承了
+title: JavaScript中的继承
 date: 2021-01-31 21:50:54
 author: Twittytop
 cover: true
