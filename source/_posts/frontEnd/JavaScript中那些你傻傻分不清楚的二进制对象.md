@@ -16,3 +16,9 @@ ArrayBuffer TypedArray FileReader FileReaderSync ReadableStream
 
 
 使用场景
+
+ArrayBuffer为canvas而生
+
+文件的读取FileReader 
+
+数据的读取Blob
