@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Twittytop</title>
+  
+  <subtitle>Stay Hungry. Stay Foolish,To the time to life,rather than to life in time.,All your dreams can come true if you have the courage to pursue them.,既然目标是地平线，留给世界的只能是背影。,我要做远方的忠诚儿子，和物质的短暂情人。</subtitle>
+  <link href="https://tuhongwei.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://tuhongwei.github.io/"/>
+  <updated>2022-04-05T16:07:23.217Z</updated>
+  <id>https://tuhongwei.github.io/</id>
+  
+  <author>
+    <name>Twittytop</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试题</title>
+    <link href="https://tuhongwei.github.io/2021/05/11/frontend/mian-shi-ti/"/>
+    <id>https://tuhongwei.github.io/2021/05/11/frontend/mian-shi-ti/</id>
+    <published>2021-05-11T10:19:36.000Z</published>
+    <updated>2022-04-05T16:07:23.217Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;美团&quot;&gt;&lt;a href=&quot;#美团&quot; class=&quot;headerlink&quot; title=&quot;美团&quot;&gt;&lt;/a&gt;美团&lt;/h3&gt;&lt;h4 id=&quot;一面&quot;&gt;&lt;a href=&quot;#一面&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="面试" scheme="https://tuhongwei.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="面试" scheme="https://tuhongwei.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进大厂，你准备好了吗</title>
+    <link href="https://tuhongwei.github.io/2021/05/06/frontend/jin-da-han-ni-zhun-bei-hao-liao-ma/"/>
+    <id>https://tuhongwei.github.io/2021/05/06/frontend/jin-da-han-ni-zhun-bei-hao-liao-ma/</id>
+    <published>2021-05-06T15:20:06.000Z</published>
+    <updated>2022-04-05T16:05:50.527Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;每个人都想进大厂，下面根据我的复习方法，希望能给你一些参考&lt;/p&gt;
+&lt;h3 id=&quot;简历准备&quot;&gt;&lt;a href=&quot;#简历准备&quot; class=&quot;headerlink&quot; title=&quot;简历准备&quot;&gt;&lt;/a&gt;简历准备&lt;/h3&gt;&lt;p&gt;可以先写一个&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="面试" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="CSS" scheme="https://tuhongwei.github.io/tags/CSS/"/>
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="https://tuhongwei.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于面试</title>
+    <link href="https://tuhongwei.github.io/2021/05/06/frontend/guan-yu-mian-shi/"/>
+    <id>https://tuhongwei.github.io/2021/05/06/frontend/guan-yu-mian-shi/</id>
+    <published>2021-05-06T15:18:33.000Z</published>
+    <updated>2022-04-05T16:05:50.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;面试的时候，心态要摆正，每一次面试当作是和面试官的一次技术交流，从面试中发现自己的不足，以便过后再去弥补。把自己知道最大的最大限度的展示出来，不知道的，虚心的请教和探讨。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="面试" scheme="https://tuhongwei.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="面试" scheme="https://tuhongwei.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录一次使用 yarn patch 遇到的问题</title>
+    <link href="https://tuhongwei.github.io/2021/04/10/tool-instruction/ji-lu-yi-ci-shi-yong-yarn-patch-yu-dao-de-wen-ti-ti/"/>
+    <id>https://tuhongwei.github.io/2021/04/10/tool-instruction/ji-lu-yi-ci-shi-yong-yarn-patch-yu-dao-de-wen-ti-ti/</id>
+    <published>2021-04-10T14:51:05.000Z</published>
+    <updated>2022-04-05T16:05:50.528Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在修改 node_modules 里的文件时（具体可以参考我的另一篇文章—修改 node_modules 里文件的正确姿势），发现了 yarn patch 这个特性，这是 v2 版本的一个新特性，于是想动手实验一番，结果报了如下错误：&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://tuhongwei.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Yarn" scheme="https://tuhongwei.github.io/tags/Yarn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改 node_modules 里文件的正确姿势</title>
+    <link href="https://tuhongwei.github.io/2021/04/06/frontend/xiu-gai-node-modules-li-wen-jian-de-zheng-que-zi-shi/"/>
+    <id>https://tuhongwei.github.io/2021/04/06/frontend/xiu-gai-node-modules-li-wen-jian-de-zheng-que-zi-shi/</id>
+    <published>2021-04-06T08:59:46.000Z</published>
+    <updated>2022-04-05T16:05:50.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;我们在开发的时候经常会遇到这种情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;所依赖的 npm 包有</summary>
+        
+      
+    
+    
+    
+    <category term="node" scheme="https://tuhongwei.github.io/categories/node/"/>
+    
+    
+    <category term="Node" scheme="https://tuhongwei.github.io/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于数组的一些操作</title>
+    <link href="https://tuhongwei.github.io/2021/04/04/frontend/guan-yu-shu-zu-de-yi-xie-cao-zuo/"/>
+    <id>https://tuhongwei.github.io/2021/04/04/frontend/guan-yu-shu-zu-de-yi-xie-cao-zuo/</id>
+    <published>2021-04-04T14:56:52.000Z</published>
+    <updated>2022-04-05T16:05:50.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考资料&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000018549643&quot;&gt;https://segmentfault.com/a/1190000018549643&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript中神奇的写法</title>
+    <link href="https://tuhongwei.github.io/2021/03/03/frontend/javascript-zhong-shen-qi-de-xie-fa/"/>
+    <id>https://tuhongwei.github.io/2021/03/03/frontend/javascript-zhong-shen-qi-de-xie-fa/</id>
+    <published>2021-03-03T14:53:15.000Z</published>
+    <updated>2022-04-05T16:05:50.523Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;h3 id=&quot;提前声明&quot;&gt;&lt;a href=&quot;#提前声明&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这些常见的手写题，你掌握了吗</title>
+    <link href="https://tuhongwei.github.io/2021/02/25/frontend/zhe-xie-chang-jian-de-shou-xie-ti-ni-zhang-wo-liao-ma/"/>
+    <id>https://tuhongwei.github.io/2021/02/25/frontend/zhe-xie-chang-jian-de-shou-xie-ti-ni-zhang-wo-liao-ma/</id>
+    <published>2021-02-25T07:36:12.000Z</published>
+    <updated>2022-04-05T16:05:50.527Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript中那些你傻傻分不清楚的二进制对象</title>
+    <link href="https://tuhongwei.github.io/2021/02/24/frontend/javascript-zhong-na-xie-ni-sha-sha-fen-bu-qing-chu-de-er-jin-zhi-dui-xiang/"/>
+    <id>https://tuhongwei.github.io/2021/02/24/frontend/javascript-zhong-na-xie-ni-sha-sha-fen-bu-qing-chu-de-er-jin-zhi-dui-xiang/</id>
+    <published>2021-02-24T07:43:49.000Z</published>
+    <updated>2022-04-05T16:05:50.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;File继承至Blob&lt;/p&gt;
+&lt;p&gt;ArrayBuffer TypedArray FileReader FileReaderSync</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript中的继承</title>
+    <link href="https://tuhongwei.github.io/2021/01/31/frontend/javascript-zhong-de-ji-cheng/"/>
+    <id>https://tuhongwei.github.io/2021/01/31/frontend/javascript-zhong-de-ji-cheng/</id>
+    <published>2021-01-31T13:50:54.000Z</published>
+    <updated>2022-04-05T16:05:50.523Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;面试中我们经常会被问到继承，希望通过此文，你能彻底搞懂 JavaScript 中的继承原理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>盘点 js 中那些诡异的结果</title>
+    <link href="https://tuhongwei.github.io/2021/01/28/frontend/pan-dian-js-zhong-na-xie-gui-yi-de-jie-guo/"/>
+    <id>https://tuhongwei.github.io/2021/01/28/frontend/pan-dian-js-zhong-na-xie-gui-yi-de-jie-guo/</id>
+    <published>2021-01-28T15:57:57.000Z</published>
+    <updated>2022-04-05T16:05:50.526Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;本文中涉及到的知识，很多都是比较冷门，在实际编码中你可能用不到，但保不准有些面试官可能会问到，或者你可以拿来zb。&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;1-typeof-null&quot;&gt;&lt;a href=&quot;#1-typeof-null&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端知识梳理</title>
+    <link href="https://tuhongwei.github.io/2021/01/28/frontend/qian-duan-zhi-shi-shu-li/"/>
+    <id>https://tuhongwei.github.io/2021/01/28/frontend/qian-duan-zhi-shi-shu-li/</id>
+    <published>2021-01-28T03:20:57.000Z</published>
+    <updated>2022-04-05T16:05:50.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简历部分&quot;&gt;&lt;a href=&quot;#简历部分&quot; class=&quot;headerlink&quot; title=&quot;简历部分&quot;&gt;&lt;/a&gt;简历部分&lt;/h3&gt;&lt;h3 id=&quot;自我介绍部分&quot;&gt;&lt;a href=&quot;#自我介绍部分&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="面试" scheme="https://tuhongwei.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="CSS" scheme="https://tuhongwei.github.io/tags/CSS/"/>
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="https://tuhongwei.github.io/tags/HTML/"/>
+    
+    <category term="Vue" scheme="https://tuhongwei.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql-8.0.23的安装</title>
+    <link href="https://tuhongwei.github.io/2021/01/27/tool-instruction/mysql-8.0.23-de-an-zhuang-pei-zhi/"/>
+    <id>https://tuhongwei.github.io/2021/01/27/tool-instruction/mysql-8.0.23-de-an-zhuang-pei-zhi/</id>
+    <published>2021-01-27T06:14:16.000Z</published>
+    <updated>2022-04-05T15:57:06.411Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;记录一下MySQL 8.0.23的安装配置过程，这里以windows为例&lt;/p&gt;
+&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;去官网下载MySQL</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://tuhongwei.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="MySQL" scheme="https://tuhongwei.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的 2020 之路</title>
+    <link href="https://tuhongwei.github.io/2021/01/22/frontend/wo-de-2020-zhi-lu/"/>
+    <id>https://tuhongwei.github.io/2021/01/22/frontend/wo-de-2020-zhi-lu/</id>
+    <published>2021-01-22T08:59:24.000Z</published>
+    <updated>2022-04-05T16:05:50.526Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2020是极不平凡又极其有意义的一年，有些东西需要被记录下来。&lt;/p&gt;
+&lt;p&gt;以前总对自己记忆力迷之自信，不屑于用文字的形式记录下来（其实是懒），现在发现随着年龄的增长，记忆力愈发衰退，很多东西容易忘记，而记录可以帮助自己回忆当时的很多细节。记录的另外的一个好处是帮助自己复</summary>
+        
+      
+    
+    
+    
+    <category term="总结" scheme="https://tuhongwei.github.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="随笔" scheme="https://tuhongwei.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何实现一个抽奖转盘</title>
+    <link href="https://tuhongwei.github.io/2021/01/22/frontend/ru-he-shi-xian-yi-ge-chou-jiang-zhuan-pan/"/>
+    <id>https://tuhongwei.github.io/2021/01/22/frontend/ru-he-shi-xian-yi-ge-chou-jiang-zhuan-pan/</id>
+    <published>2021-01-22T08:59:17.000Z</published>
+    <updated>2022-04-05T15:57:06.409Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;本文也适合有搭建博客需求的非技术人员，不需要服务器，不需要域名，手把手教你搭建一个自己的博客。&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>详解js中0.1+0.2!=0.3</title>
+    <link href="https://tuhongwei.github.io/2021/01/19/frontend/xiang-jie-js-zhong-0.1-0.2-0.3/"/>
+    <id>https://tuhongwei.github.io/2021/01/19/frontend/xiang-jie-js-zhong-0.1-0.2-0.3/</id>
+    <published>2021-01-19T07:54:50.000Z</published>
+    <updated>2022-04-05T16:05:50.527Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;font size=&quot;3&quot;&gt;笔者曾经面试被问到过 0.1+0.2 的结果是啥，初看这题你可能心中会想，难道不是0.3吗？但你肯定会觉得没那么简单，那今天我们就来探一探究竟。&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=&quot;4&quot; color=&quot;#00c100&quot;&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对 Object.defineProperty 的一点探讨</title>
+    <link href="https://tuhongwei.github.io/2021/01/15/frontend/dui-object.defineproperty-de-yi-dian-tan-tao/"/>
+    <id>https://tuhongwei.github.io/2021/01/15/frontend/dui-object.defineproperty-de-yi-dian-tan-tao/</id>
+    <published>2021-01-15T07:43:04.000Z</published>
+    <updated>2022-04-05T16:05:50.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手把手教你搭建一个自己的的博客</title>
+    <link href="https://tuhongwei.github.io/2021/01/12/tool-instruction/shou-ba-shou-jiao-ni-da-jian-yi-ge-zi-ji-de-bo-ke/"/>
+    <id>https://tuhongwei.github.io/2021/01/12/tool-instruction/shou-ba-shou-jiao-ni-da-jian-yi-ge-zi-ji-de-bo-ke/</id>
+    <published>2021-01-12T08:33:29.000Z</published>
+    <updated>2022-04-05T16:05:50.528Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;本文也适合有搭建博客需求的非技术人员，不需要服务器，不需要域名，手把手教你搭建一个自己的博客。&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://tuhongwei.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://tuhongwei.github.io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="https://tuhongwei.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>原来深拷贝还可以这么写</title>
+    <link href="https://tuhongwei.github.io/2021/01/11/frontend/yuan-lai-shen-kao-bei-huan-ke-yi-zhe-me-xie/"/>
+    <id>https://tuhongwei.github.io/2021/01/11/frontend/yuan-lai-shen-kao-bei-huan-ke-yi-zhe-me-xie/</id>
+    <published>2021-01-11T03:10:20.000Z</published>
+    <updated>2022-04-05T16:05:50.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-最基本的&quot;&gt;&lt;a href=&quot;#1-最基本的&quot; class=&quot;headerlink&quot; title=&quot;1. 最基本的&quot;&gt;&lt;/a&gt;1. 最基本的&lt;/h3&gt;&lt;h3 id=&quot;2-JSON-parse-JSON-stringify&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初探ServiceWorker</title>
+    <link href="https://tuhongwei.github.io/2020/12/03/frontend/chu-tan-serviceworker/"/>
+    <id>https://tuhongwei.github.io/2020/12/03/frontend/chu-tan-serviceworker/</id>
+    <published>2020-12-03T06:16:35.000Z</published>
+    <updated>2022-04-05T15:57:06.409Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;咋一看标题，可能你会觉得非常简单，因为这是极其常见的需求，但只有当你真正去实践过，才会发现这并没有想象中那么简单。长久以来，前端开发者们为此殚精竭虑，琢磨出了各种解决办法，本篇文章将利用现代css的威力，去解决这一难题。&lt;br&gt;先从先前所使用的方法及其弊病讲起。&lt;/p&gt;
+&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://tuhongwei.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="JavaScript" scheme="https://tuhongwei.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+</feed>
